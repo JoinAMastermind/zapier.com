@@ -1,0 +1,24 @@
+\\ Last Updated: 10th November 2017
+
+\\ Purpose:
+\\ Find a record in Airtable from zapier which matches two criteria
+
+\\ Where:
+\\ In Zapier.com
+\\ Integrating with airtable.com
+\\ Using Find Record
+\\ Select your "Base" and your "Table"
+\\ You are able to run a search using the field "Search Formula" 
+
+
+\\ My original that works is: AND({column1_name} = '{{variable1?}}', {column2_name} = '{{variable2?}}')
+
+
+
+\\ To do:
+\\ Replace [column1_name] and [column2_name]
+\\ Replace [variable1] and [variable2]
+
+\\ The code:
+AND({[column1_name]} = '{{[variable1]?}}', {[column2_name]} = '{{[variable2]?}}')
+
